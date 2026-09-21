@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rainbow Color Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/Home.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="bi bi-stars"></i> ColorSite
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="#" class="btn btn-create-now">
+              <i class="bi bi-plus-circle-fill me-1"></i> Create Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section text-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4">
+          <h1 class="display-3 fw-bold mb-3">Welcome to Dream World </h1>
+          <p class="lead mb-4">Beautiful, colorful, and responsive website.</p>
+          <a href="#features" class="btn btn-custom btn-lg">Get Started <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://picsum.photos/600/400?random=1" 
+               alt="Hero Image" 
+               class="img-fluid rounded-4 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Our Features</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-1 border-0 shadow h-100 text-center p-4">
+            <i class="bi bi-lightning-charge-fill feature-icon"></i>
+            <h5 class="fw-bold">Fast</h5>
+            <p>Super fast performance with optimized code.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-2 border-0 shadow h-100 text-center p-4">
+            <i class="bi bi-phone-fill feature-icon"></i>
+            <h5 class="fw-bold">Responsive</h5>
+            <p>Works perfectly on all devices and screens.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-3 border-0 shadow h-100 text-center p-4">
+            <i class="bi bi-palette-fill feature-icon"></i>
+            <h5 class="fw-bold">Colorful</h5>
+            <p>Vibrant gradients and modern color themes.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card card-4 border-0 shadow h-100 text-center p-4">
+            <i class="bi bi-shield-check feature-icon"></i>
+            <h5 class="fw-bold">Secure</h5>
+            <p>Safe and reliable for all your needs.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Image Gallery 📸</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300?random=2" class="img-fluid gallery-img w-100" alt="Gallery 1">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300?random=3" class="img-fluid gallery-img w-100" alt="Gallery 2">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300?random=4" class="img-fluid gallery-img w-100" alt="Gallery 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form class="bg-white p-4 rounded-4 shadow">
+            <div class="mb-3">
+              <label class="form-label fw-bold">Name</label>
+              <input type="text" class="form-control" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold">Email</label>
+              <input type="email" class="form-control" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 fw-bold">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <h5 class="fw-bold mb-3">ColorSite 🎨</h5>
+      <p>© 2025 ColorSite. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
